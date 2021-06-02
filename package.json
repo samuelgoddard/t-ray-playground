@@ -17,6 +17,7 @@
     "postcss-preset-env": "^6.7.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "styled-components": "^5.3.0",
     "use-sound": "^3.0.1"
   },
   "devDependencies": {

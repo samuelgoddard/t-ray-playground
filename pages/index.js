@@ -7,6 +7,7 @@ import { fade } from "../helpers/transitions"
 import { motion } from 'framer-motion'
 import Scratch from '../components/scratch'
 import Roomba from '../components/roomba'
+import DrumMachine from '../components/drums.js'
 
 export default function Home() {
   return (
@@ -36,7 +37,8 @@ export default function Home() {
 
             <Roomba />
             <Scratch />
-            
+
+            <DrumMachine />
           </motion.div>
         </Container>
       </motion.div>
