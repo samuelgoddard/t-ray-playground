@@ -6,10 +6,10 @@ export default function Header() {
     <header className="py-4 bg-gray-200 mb-4 md:mb-6 xl:mb-8">
       <Container>
         <div className="flex flex-wrap">
-          <span>SG Next Starter</span>
+          <span>I'm Really A T-Rex</span>
 
           <div className="ml-auto">
-            <Link href="/">
+            {/* <Link href="/">
               <a aria-label="Navigate to about page" className="underline inline-block ml-5">
                 Home
               </a>
@@ -18,7 +18,7 @@ export default function Header() {
               <a aria-label="Navigate to about page" className="underline inline-block ml-5">
                 About
               </a>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </Container>

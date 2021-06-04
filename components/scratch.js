@@ -5,7 +5,7 @@ import useSound from 'use-sound'
 export default function Scratch() {
   const [playbackRate, setPlaybackRate] = useState(0.9);
 
-  const [play, {pause, isPlaying}] = useSound(scratch, {
+  const [play, {sound, pause, isPlaying}] = useSound(scratch, {
     playbackRate,
     loop: true,
     interrupt: true,
@@ -15,7 +15,11 @@ export default function Scratch() {
   return (
     <div className="roombas">
       { !isPlaying ? (
-        <button className="bg-black text-white p-3 block" onClick={() => play()}>Play Scratch</button>
+        <button className="bg-black text-white p-3 block"
+        onClick={() => {
+          play()
+          sound.fade(0, 1, 1000)
+      }}>Play Scratch</button>
       ) : (
         <button className="bg-black text-white p-3 block" onClick={() => pause()}>Pause Scratch</button>
       )}
