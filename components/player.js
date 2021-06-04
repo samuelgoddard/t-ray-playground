@@ -264,7 +264,8 @@ class Player extends React.Component {
             </button>
             <span className="font-bold">Vocals</span>
 
-            <div className='volume ml-auto'>
+            <div className='volume ml-auto flex items-center'>
+            <button className="bg-black text-white py-1 px-2 block rounded-lg mr-2">Show Tabs</button>
               <label>
                 Volume:
                 <input
@@ -288,7 +289,8 @@ class Player extends React.Component {
             </button>
             <span className="font-bold">Guitar</span>
 
-            <div className='volume ml-auto'>
+            <div className='volume ml-auto flex items-center'>
+            <button className="bg-black text-white py-1 px-2 block rounded-lg mr-2">Show Tabs</button>
               <label>
                 Volume:
                 <input
@@ -312,7 +314,8 @@ class Player extends React.Component {
             </button>
             <span className="font-bold">Bass</span>
 
-            <div className='volume ml-auto'>
+            <div className='volume ml-auto flex items-center'>
+            <button className="bg-black text-white py-1 px-2 block rounded-lg mr-2">Show Tabs</button>
               <label>
                 Volume:
                 <input
@@ -336,7 +339,8 @@ class Player extends React.Component {
             </button>
             <span className="font-bold">Keys</span>
 
-            <div className='volume ml-auto'>
+            <div className='volume ml-auto flex items-center'>
+            <button className="bg-black text-white py-1 px-2 block rounded-lg mr-2">Show Tabs</button>
               <label>
                 Volume:
                 <input
@@ -360,7 +364,8 @@ class Player extends React.Component {
             </button>
             <span className="font-bold">Drums</span>
 
-            <div className='volume ml-auto'>
+            <div className='volume ml-auto flex items-center'>
+            <button className="bg-black text-white py-1 px-2 block rounded-lg mr-2">Show Tabs</button>
               <label>
                 Volume:
                 <input
