@@ -32,6 +32,7 @@ function DrumMachine() {
       snare: [666, 290],
       cowbell: [968, 200],
     },
+    volume: 3.4
   });
 
   // Custom hook that listens for 'keydown',
