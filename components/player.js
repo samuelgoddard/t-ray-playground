@@ -210,8 +210,8 @@ class Player extends React.Component {
         <ReactHowler 
           onLoad={this.handleOnLoad}
           ref={(ref) => (this.playerDrums = ref)}
-          html5
-          preload
+          html5={true}
+          preload={true}
           src='/stems/drums.mp3'
           playing={this.state.drums}
           volume={this.state.drumsVolume}
@@ -219,7 +219,7 @@ class Player extends React.Component {
         />
         <ReactHowler
           ref={(ref) => (this.playerBass = ref)}
-          html5
+          html5={true}
           preload
           src='/stems/bass.mp3'
           playing={this.state.bass}
@@ -228,8 +228,8 @@ class Player extends React.Component {
         />
         <ReactHowler
           ref={(ref) => (this.playerKeys = ref)}
-          html5
-          preload
+          html5={true}
+          preload={true}
           src='/stems/keys.mp3'
           playing={this.state.keys}
           volume={this.state.keysVolume}
@@ -237,8 +237,8 @@ class Player extends React.Component {
         />
         <ReactHowler
           ref={(ref) => (this.playerGuitar = ref)}
-          html5
-          preload
+          html5={true}
+          preload={true}
           src='/stems/guitar.mp3'
           playing={this.state.guitar}
           volume={this.state.guitarVolume}
@@ -246,8 +246,8 @@ class Player extends React.Component {
         />
         <ReactHowler
           ref={(ref) => (this.playerVocals = ref)}
-          html5
-          preload
+          html5={true}
+          preload={true}
           src='/stems/vocals-lp.mp3'
           playing={this.state.vocals}
           volume={this.state.vocalsVolume}
